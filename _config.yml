@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pan Sinaí como sistema abierto · Grupo 2</title>
+<style>
+:root{--bg:#fafaf7;--card:#fff;--tx:#241f1a;--mut:#6b625a;--ac:#9a4a14;--ln:#e6dfd5;--soft:#f5ebdd;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1814;--card:#262019;--tx:#f1ebe3;--mut:#b5aa9d;--ac:#e8a063;--ln:#3a3128;--soft:#31271d}}
+:root[data-theme="dark"]{--bg:#1c1814;--card:#262019;--tx:#f1ebe3;--mut:#b5aa9d;--ac:#e8a063;--ln:#3a3128;--soft:#31271d}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 Georgia,"Times New Roman",serif}
+header{background:var(--soft);border-bottom:1px solid var(--ln);padding:2.5rem 1rem 2rem;text-align:center}
+.w{max-width:880px;margin:0 auto;padding:0 1rem}
+h1{font-size:clamp(1.7rem,5vw,2.4rem);margin:.3rem 0;color:var(--ac)}
+h2{font-size:1.4rem;color:var(--ac);border-bottom:2px solid var(--ln);padding-bottom:.3rem;margin-top:2.5rem}
+h3{font-size:1.05rem;margin:.2rem 0 .4rem}
+.m{color:var(--mut);font-size:.92rem}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--ln);padding:.5rem 1rem;overflow-x:auto;white-space:nowrap;font:.85rem system-ui,sans-serif;z-index:5}
+nav a{color:var(--ac);text-decoration:none;margin-right:1rem}
+.g{display:grid;gap:.8rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.c{background:var(--card);border:1px solid var(--ln);border-radius:10px;padding:.9rem 1rem}
+.c ul{margin:.3rem 0 0;padding-left:1.1rem}
+.fb{margin-top:.8rem;background:var(--soft);border:1px dashed var(--ac);border-radius:10px;padding:.8rem 1rem}
+.ph{border:2px dashed var(--ln);border-radius:10px;min-height:150px;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--mut);padding:1rem;font:.9rem system-ui,sans-serif}
+.ov{overflow-x:auto}
+footer{margin-top:3rem;padding:1.5rem 1rem;text-align:center;border-top:1px solid var(--ln)}
+</style>
+</head>
+<body>
+<header>
+<div class="m">Universidad de El Salvador · Facultad de Ingeniería y Arquitectura · Escuela de Ingeniería de Sistemas Informáticos</div>
+<h1>Empresa Medrano Flores Pan Sinaí como sistema abierto</h1>
+<div>Actividad de Discusión 2: La organización como sistema abierto</div>
+<p class="m">Asignatura: Teoría de Sistemas (Plan 2025) · Grupo 2<br>
+Integrantes: Kenia Elizabeth Miranda Jimenez, Jorge Alexander Valdez Renderos,  Samuel de Jesus Humaña<br>
+Fecha: octubre de 2026</p>
+</header>
+<nav><a href="#org">Organización</a><a href="#sis">Sistema abierto</a><a href="#ana">Análisis</a><a href="#evi">Evidencias</a><a href="#con">Conclusiones</a><a href="#fue">Fuentes</a></nav>
+<main class="w">
 
+<h2 id="org">1. La organización</h2>
+<p>Pan Sinaí es una panadería salvadoreña de pan dulce que, según la información recibida en la entrevista, funciona desde diciembre de 1960. Comenzó en una casa pequeña, donde su primera dueña vendía pan francés en la tiendona. Ella creó la fórmula de la quesadilla y la heredó a su hijo, quien continuó el legado de la panadería.</p>
+<div class="g">
+<div class="c"><h3>Actividad principal</h3>Elaboración y venta de pan dulce de toda especialidad, basada en panes leudados y batidos.</div>
+<div class="c"><h3>Ubicación</h3>Soyapango, San Salvador, donde está la única planta productora que tiene en el país. Según la entrevista, también hay una sucursal en Guatemala.</div>
+<div class="c"><h3>Personal</h3>Más de 3,000 personas, divididas en producción, ventas y administración.</div>
+<div class="c"><h3>Usuarios y clientes</h3>Público en general, Súper Selectos, Dollar City y consumidores en el exterior del país.</div>
+</div>
+<p class="m">La persona entrevistada pertenece al área de Recursos Humanos. Por su solicitud, no se publica su nombre.</p>
+
+<h2 id="sis">2. Sistema abierto: entradas, procesos, salidas, entorno y retroalimentación</h2>
+<div class="g">
+<div class="c"><h3>Entradas</h3><ul>
+<li>Materias primas: harinas de diferentes tipos, azúcares, grasas comestibles, ácidos alimenticios y colores naturales.</li>
+<li>Maquinaria: hornos rotativos de túnel con bandas corredizas, amasadoras y batidoras industriales, fermentadores.</li>
+<li>Energía: los hornos funcionan con gas y cuentan con mini plantas eléctricas para cuando se va la luz, que abastecen la zona.</li>
+<li>Personal de producción, ventas y administración.</li>
+<li>Pedidos recibidos por redes sociales.</li>
+<li>Información: cambios de precios de materias primas, alzas de panes por temporada o fiestas y preferencias del público.</li></ul></div>
+<div class="c"><h3>Procesos</h3><ul>
+<li>Recepción y almacenado de la materia prima.</li>
+<li>Paso al área de masas cuando se necesita, y transformación en masa.</li>
+<li>Procesamiento hasta obtener el producto terminado, luego empacado y embazado.</li>
+<li>Puesta a la venta.</li>
+<li>Control de calidad por personal dedicado e inventarios de papelería, cartón y materia prima, según la producción semanal.</li>
+<li>Dos turnos (diurno y nocturno) de 12 horas. La gerencia decide la producción diaria.</li></ul></div>
+<div class="c"><h3>Salidas</h3><ul>
+<li>Pan dulce de todo tipo. El más vendido es la quesadilla. Los de menor venta son los de temporada, como el pan de yema.</li>
+<li>Venta a todo público.</li>
+<li>Empleo para muchas personas.</li>
+<li>Ventas a nivel internacional.</li>
+<li>El pan sobrante se selecciona y una parte se reprocesa como complemento de otros productos.</li></ul></div>
+<div class="c"><h3>Entorno</h3><ul>
+<li>Clientes: Súper Selectos, Dollar City, consumidores del exterior.</li>
+<li>Competencia: Pan Bimbo y Panadería Lido.</li>
+<li>Factores: alzas repentinas de precios por guerras o desastres naturales en rutas de tránsito de materias primas.</li>
+<li>Regulación: licencia de funcionamiento, permisos de seguridad y prevención de incendios, de ventas, de exportación, de salubridad y certificación de manipuladores de alimentos.</li></ul></div>
+</div>
+<div class="fb"><h3>Retroalimentación</h3>
+La empresa se entera de la opinión de los clientes por quejas y comentarios en redes sociales, positivos o negativos, por los encargados de las sucursales de mercado (el área de ventas) y por los pedidos que llegan a gerencia. Con esa información cambió la calidad de un producto a partir de opiniones del público. Cuando bajan las ventas hace promociones o impulsa algún producto. Cuando suben los costos prioriza el gasto de materias primas para no perjudicar a los consumidores. La producción de algunos productos se varía cada semana.</div>
+
+<h2 id="ana">3. Análisis aplicado</h2>
+<p>Pan Sinaí funciona como un sistema abierto porque mantiene un intercambio constante con su entorno. Recibe materias primas, gas, personal e información externa, como los cambios de precios y las preferencias del público, y mantiene plantas eléctricas para seguir operando cuando falla la luz. Dentro de la organización, esas entradas se transforman mediante un proceso que va de la recepción y el almacenado, pasa por el área de masas y termina en el empacado. Como resultado salen productos terminados, empleo y ventas, tanto en el país como en el exterior.</p>
+<p>El entorno condiciona al sistema en dos sentidos. Por un lado, lo limita: las leyes y permisos que debe cumplir, la competencia de otras panaderías y las alzas de precios por circunstancias fuera de su control. Por otro lado, lo alimenta, a través de clientes como Súper Selectos y Dollar City y de los consumidores. La retroalimentación cierra el ciclo: las quejas, los comentarios y los pedidos regresan a la gerencia y se convierten en cambios de calidad, promociones y ajustes semanales de producción. Gracias a ese ajuste, la organización se adapta a su entorno en lugar de funcionar aislada de él.</p>
+<p class="m">Las áreas de producción, ventas y administración se pueden ver como subsistemas que trabajan juntos para lograr el objetivo común de la organización.</p>
+
+<h2 id="evi">4. Evidencias</h2>
+<div class="g">
+<div class="ph">[Fotografía propia autorizada de Pan Sinaí]</div>
+<div class="ph">[Fotografía del diagrama manual]</div>
+<div class="ph">[Captura del correo de coordinación con la organización, sin datos privados]</div>
+</div>
+<p class="m">Entrevista realizada el 5 de octubre de 2026 a una persona del área de Recursos Humanos de Pan Sinaí, en Soyapango. La organización autorizó las fotografías y no autorizó publicar el nombre de la persona entrevistada.</p>
+
+<h2 id="con">5. Conclusiones</h2>
+<ul>
+<li>Pan Sinaí cumple las características de un sistema abierto: recibe entradas del entorno, las transforma en productos y entrega resultados a clientes dentro y fuera del país.</li>
+<li>Su entorno influye de forma directa: los precios de las materias primas, la competencia y los permisos obligatorios afectan sus decisiones.</li>
+<li>La retroalimentación proviene de redes sociales, encargados de las sucursales de mercado y pedidos. Se usa para mejorar la calidad, hacer promociones y ajustar la producción cada semana.</li>
+<li>Con esta actividad vimos que los conceptos de entradas, procesos, salidas, entorno y retroalimentación se pueden observar en una empresa real salvadoreña con más de 60 años de historia.</li>
+</ul>
+
+<h2 id="fue">6. Fuentes</h2>
+<ul>
+<li>Entrevista a una persona del área de Recursos Humanos de Pan Sinaí, Soyapango, 5 de octubre de 2026.</li>
+<li>Correo de coordinación con la organización (ver sección de evidencias).</li>
+<li>Sitio oficial o redes sociales de Pan Sinaí: [agregar enlace].</li>
+<li>Universidad de El Salvador. (2026). <em>Guía de la Actividad de Discusión 2: La organización como sistema abierto</em>. Teoría de Sistemas (Plan 2025).</li>
+</ul>
+</main>
+<footer class="m">Grupo 2 · Teoría de Sistemas · Universidad de El Salvador · 2026</footer>
+</body>
+</html>
